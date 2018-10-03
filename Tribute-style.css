@@ -1,0 +1,160 @@
+#main {
+    background: #f3f6f7;
+}
+
+#title {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    animation-name: appear1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.explain {
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Calligraffitti', cursive;
+    animation-name: appear2;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+#img-div {
+    text-align: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    box-shadow: -1px 7px 78px -21px rgba(0,0,0,0.22) 
+}
+
+#image {
+    padding-bottom: 20px; 
+    padding-top: 3px;
+    border-radius: 60px;
+}
+
+#img-caption {
+    padding-bottom: 3px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    text-shadow: 0px 2px 13px rgba(150, 150, 150, 0.78);
+}
+
+#tribute-info {
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 50px;
+}
+
+#tribute-info p {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.prime {
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+h5 {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    animation-name: wiki;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear1 {
+    0% {
+        
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+    @keyframes appear2 {
+        0% {
+            
+        }
+    
+        10% {
+            opacity: 0.1;
+        }
+    
+        20% {
+            opacity: 0.2;
+        }
+    
+        30% {
+            opacity: 0.3;
+        }
+    
+        40% {
+            opacity: 0.4;
+        }
+    
+        50% {
+            opacity: 0.5;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes wiki {
+        0% {
+            color: black;
+        }
+    
+        100% {
+            background-color: black;
+            color: white;
+        }
+    }
+
+

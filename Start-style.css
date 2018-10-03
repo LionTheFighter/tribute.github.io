@@ -1,0 +1,136 @@
+body {
+    background: #f3f6f7;
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+h5 {
+    padding-top: 80px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    border: 3px #f3f6f7 solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    animation-name: enter;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.tribute {
+    color: #f3f6f7;
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.to {
+    animation-name: appear2;
+    animation-duration: 3s;
+    color: #f3f6f7;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.dr {
+    animation-name: appear3;
+    animation-duration: 3s;
+    color: #f3f6f7;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.man {
+    opacity: 0;
+    animation-name: appear4;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        margin-left: -1700px;
+    }
+
+    100% {
+        color: black;
+    }
+
+}
+
+@keyframes appear2 {
+    0% {
+        margin-left: -1500px; 
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes appear3 {
+    0% {
+        margin-left: -1700px;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes appear4 {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes enter {
+    0% {
+        color: black;
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
